@@ -18,4 +18,31 @@ Test image show:
 4.tfplot(You might need to install this lib by pip)<br>
 5.tensorflow==1.9<br>
 
+# Pascal voc data_set download
+[VOC2007]()
+# Data Format
+```
+├── VOCdevkit
+│   ├── VOC2007
+│       ├── Annotation
+│       ├── JPEGImages
+|       ├── ImageSets
+│   ├── VOC2012
+│       ├── Annotation
+│       ├── JPEGImages
+│       ├── ImageSets
+```
+# Download pretrained Model
+You can download pretrained model and put into $PATH_ROOT/output, and test on pascal data set or your own data set(Please convert your data set into pascal format before testing):<br>
+```
+For map_compute:
+cd $PATH_ROOT
+python test.py
+```
+```
+For img_show:
+cd $PATH_ROOT
+python test_show_image.py
+```
+
 

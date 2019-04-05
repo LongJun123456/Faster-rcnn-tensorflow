@@ -19,15 +19,22 @@ Test image show:
 5.tensorflow==1.9<br>
 
 # Pascal voc data_set download
-[VOC2007]()
+[VOC2007_trainval_06](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar)<br>
+[VOCtest_06-Nov-2007](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtest_06-Nov-2007.tar)<br>
+[VOCtrainval_11-May-2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar)<br>
+
 # Data Format
 ```
 ├── VOCdevkit
-│   ├── VOC2007
+│   ├── VOC2007_trainval
 │       ├── Annotation
 │       ├── JPEGImages
 |       ├── ImageSets
-│   ├── VOC2012
+│   ├── VOC2007_test
+│       ├── Annotation
+│       ├── JPEGImages
+|       ├── ImageSets
+│   ├── VOC2012_trainval
 │       ├── Annotation
 │       ├── JPEGImages
 │       ├── ImageSets

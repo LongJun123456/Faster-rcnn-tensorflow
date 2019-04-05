@@ -3,9 +3,12 @@
 This is a tensorflow re-implementation of Faster rcnn by LongJun<br>
 [Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](https://arxiv.org/abs/1506.01497)<br>
 
+With VGG16(conv5_3):
 Train on VOC2007 trainval and test on VOC2007 test, the mean_ap is 71.0%<br>
-Train on VOC2007+VOC2012 trainval and test on VOC2007 test, the mean_ap is <br>
+Train on VOC2007+VOC2012 trainval and test on VOC2007 test, the mean_ap is 76.3%<br>
 (You can change the train set and test set for more results)<br>
+More backbone network will be supported in the feature
+
 Test image show:
 ![test_img](https://github.com/LongJun123456/Faster-rcnn-tensorflow/blob/master/test_img/148.jpg)
 ![test_img](https://github.com/LongJun123456/Faster-rcnn-tensorflow/blob/master/test_img/39.jpg)

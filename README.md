@@ -15,6 +15,7 @@ Test image show:
 ![test_img](https://github.com/LongJun123456/Faster-rcnn-tensorflow/blob/master/test_img/9.jpg)
 ![test_img](https://github.com/LongJun123456/Faster-rcnn-tensorflow/blob/master/test_img/70.jpg)
 ![test_img](https://github.com/LongJun123456/Faster-rcnn-tensorflow/blob/master/test_img/138.jpg)
+![test_img](https://github.com/LongJun123456/Faster-rcnn-tensorflow/blob/master/test_img/140.jpg)
 # My Development Environment
 1.python 3.6(anaconda recommend)<br>
 2.cuda9.0<br>

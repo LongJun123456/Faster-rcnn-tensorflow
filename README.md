@@ -23,29 +23,32 @@ Test image show:
 4.tfplot(You might need to install this lib by pip)<br>
 5.tensorflow==1.9<br>
 
-# Pascal voc data_set download
+# Pascal voc data_set download(if you only train your net on voc2007, you can just download VOC2007_trainval_06 and VOCtest_06-Nov-2007)
 [VOC2007_trainval_06](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar)<br>
 [VOCtest_06-Nov-2007](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtest_06-Nov-2007.tar)<br>
 [VOCtrainval_11-May-2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar)<br>
 
-# Data Format
+#Please change the data format as fellow 
 ```
-├── VOCdevkit
-│   ├── VOC2007_trainval
-│       ├── Annotation
-│       ├── JPEGImages
-|       ├── ImageSets
-│   ├── VOC2007_test
-│       ├── Annotation
-│       ├── JPEGImages
-|       ├── ImageSets
-│   ├── VOC2012_trainval
-│       ├── Annotation
-│       ├── JPEGImages
-│       ├── ImageSets
+├── dataset
+      ├── VOCdevkit
+      │   ├── VOC2007_trainval
+      │       ├── Annotation
+      │       ├── JPEGImages
+      |       ├── ImageSets
+      │   ├── VOC2007_test
+      │       ├── Annotation
+      │       ├── JPEGImages
+      |       ├── ImageSets
+      │   ├── VOC2012_trainval
+      │       ├── Annotation
+      │       ├── JPEGImages
+      │       ├── ImageSets
 ```
-# Download pretrained Model
-You can download pretrained model and put into $PATH_ROOT/output, and test on pascal data set or your own data set(Please convert your data set into pascal format before testing):<br>
+# Download pretrained Model(If you want to train your own model, you can skip this step)
+You can download pretrained model and put into $PATH_ROOT/output<br>
+You can also train your own model by the method below<br>
+test on pascal data set or your own data set(Please convert your data set into pascal format before testing):<br>
 ```
 For map_compute:
 cd $PATH_ROOT
@@ -56,5 +59,12 @@ For img_show:
 cd $PATH_ROOT
 python test_show_image.py
 ```
-
-
+# Train your own model
+1. Download VGG16 pretrained weights [VGG16_weights](http://download.tensorflow.org/models/vgg_16_2016_08_28.tar.gz)
+2. Put the VGG16 pretrained weights into folder 'model_pretrained'
+3. Modify parameters (such as train_imdb_name, test_imdb_name, MAX_ITER, etc.) in $PATH_ROOT/config.py
+Then input:
+```
+cd $PATH_ROOT
+python train.py
+```

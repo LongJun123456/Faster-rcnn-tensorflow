@@ -76,7 +76,6 @@ The summary is in the folder 'summary_out/year_month_day_hour_minute', such as:<
 tensorboard --logdir /LongJun/Faster-rcnn-tensorflow/summary_out/2018_04_19_21_13   You need to choose the latest folder so you can see the newest summary
 ![tensorboard](https://github.com/LongJun123456/Faster-rcnn-tensorflow/blob/master/test_img/11.png)
 ![tensorboard](https://github.com/LongJun123456/Faster-rcnn-tensorflow/blob/master/test_img/22.png)
-![tensorboard](https://github.com/LongJun123456/Faster-rcnn-tensorflow/blob/master/test_img/33.png)
 
 # Eval and test
 ```
@@ -90,5 +89,10 @@ cd $PATH_ROOT
 python test_show_image.py
 ```
 
+# End
+```
+More dection network  re-implementation of tensorflow will be uploaded in the feature, FPN,YOLO..
+If it helps, please give a star. Thank you very much
+```
 
 

@@ -10,7 +10,7 @@ Train on VOC2007+VOC2012 trainval and test on VOC2007 test, the mean_ap is 76.3%
 More backbone network(such as Resnet) will be supported in the feature
 
 Test image show:
-![test_img](https://github.com/LongJun123456/Faster-rcnn-tensorflow/blob/master/test_img/148.jpg)
+![test_img](https://github.com/LongJun123456/Faster-rcnn-tensorflow/blob/master/test_img/87.jpg)
 ![test_img](https://github.com/LongJun123456/Faster-rcnn-tensorflow/blob/master/test_img/39.jpg)
 ![test_img](https://github.com/LongJun123456/Faster-rcnn-tensorflow/blob/master/test_img/9.jpg)
 ![test_img](https://github.com/LongJun123456/Faster-rcnn-tensorflow/blob/master/test_img/70.jpg)

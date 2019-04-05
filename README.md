@@ -13,7 +13,6 @@ Test image show:
 ![test_img](https://github.com/LongJun123456/Faster-rcnn-tensorflow/blob/master/test_img/87.jpg)
 ![test_img](https://github.com/LongJun123456/Faster-rcnn-tensorflow/blob/master/test_img/39.jpg)
 ![test_img](https://github.com/LongJun123456/Faster-rcnn-tensorflow/blob/master/test_img/9.jpg)
-![test_img](https://github.com/LongJun123456/Faster-rcnn-tensorflow/blob/master/test_img/70.jpg)
 ![test_img](https://github.com/LongJun123456/Faster-rcnn-tensorflow/blob/master/test_img/138.jpg)
 ![test_img](https://github.com/LongJun123456/Faster-rcnn-tensorflow/blob/master/test_img/140.jpg)
 # My Development Environment

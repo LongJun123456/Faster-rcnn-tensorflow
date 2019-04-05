@@ -22,7 +22,7 @@ Test image show:
 4.tfplot(You might need to install this lib by pip)<br>
 5.tensorflow==1.9<br>
 
-# Pascal voc data_set download(if you only train your net on voc2007, you can just download VOC2007_trainval_06 and VOCtest_06-Nov-2007)
+# Pascal VOC data_set download(if you only train your net on VOC2007, you can just download VOC2007_trainval_06 and VOCtest_06-Nov-2007)
 [VOC2007_trainval_06](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar)<br>
 [VOCtest_06-Nov-2007](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtest_06-Nov-2007.tar)<br>
 [VOCtrainval_11-May-2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar)<br>

@@ -61,10 +61,30 @@ python test_show_image.py
 ```
 # Train your own model
 1. Download VGG16 pretrained weights [VGG16_weights](http://download.tensorflow.org/models/vgg_16_2016_08_28.tar.gz)
-2. Put the VGG16 pretrained weights into folder 'model_pretrained'
+2. uncompress the VGG16 pretrained weights and put the weight into folder 'model_pretrained'
 3. Modify parameters (such as train_imdb_name, test_imdb_name, MAX_ITER, etc.) in $PATH_ROOT/config.py
 Then input:
 ```
 cd $PATH_ROOT
 python train.py
 ```
+
+# Tensorboard
+```
+tensorboard --logdir $PATH_ROOT/output
+```
+
+# Eval and test
+```
+For map_compute:
+cd $PATH_ROOT
+python test.py
+```
+```
+For img_show:
+cd $PATH_ROOT
+python test_show_image.py
+```
+
+
+

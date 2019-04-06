@@ -45,7 +45,7 @@ Please change the data format as fellow
       │       ├── ImageSets
 ```
 # Download pretrained Model(If you want to train your own model, you can skip this step)
-You can download pretrained model and put into $PATH_ROOT/output<br>
+You can download pretrained model and put into $PATH_ROOT/output after uncompressing<br>
 You can also train your own model by the method below<br>
 test on pascal data set or your own data set(Please convert your data set into pascal format before testing):<br>
 ```

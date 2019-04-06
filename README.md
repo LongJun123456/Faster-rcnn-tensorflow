@@ -44,8 +44,8 @@ Please change the data format as fellow
       │       ├── JPEGImages
       │       ├── ImageSets
 ```
-# Download pretrained Model [Model download]<br>
-(https://pan.baidu.com/s/1RWXD_aSB3rqGcXc5XeNltw) key c0eb <br>
+# Download pretrained Model<br>
+[Model download](https://pan.baidu.com/s/1RWXD_aSB3rqGcXc5XeNltw) key c0eb <br>
 (If you want to train your own model, you can skip this step)<br>
 You can download pretrained model and put into $PATH_ROOT/output after uncompressing<br>
 You can also train your own model by the method below<br>

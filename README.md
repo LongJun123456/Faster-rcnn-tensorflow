@@ -45,7 +45,7 @@ Please change the data format as fellow
       │       ├── ImageSets
 ```
 # Download pretrained Model<br>
-[Model download](https://pan.baidu.com/s/1RWXD_aSB3rqGcXc5XeNltw) key c0eb <br>
+[Model download](https://pan.baidu.com/s/1RWXD_aSB3rqGcXc5XeNltw). pass key is c0eb <br>
 (If you want to train your own model, you can skip this step)<br>
 You can download pretrained model and put into $PATH_ROOT/output after uncompressing<br>
 You can also train your own model by the method below<br>

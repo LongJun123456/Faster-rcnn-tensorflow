@@ -88,6 +88,7 @@ For img_show:
 cd $PATH_ROOT
 python test_show_image.py
 ```
+You can change the img_save_num for the num of image showing in config.py, default 2
 
 # End
 More dection network  re-implementation of tensorflow will be uploaded in the feature, FPN,YOLO..<br>

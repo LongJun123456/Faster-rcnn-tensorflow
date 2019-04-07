@@ -32,15 +32,15 @@ Please change the data format as fellow
 ├── dataset
       ├── VOCdevkit
       │   ├── VOC2007_trainval
-      │       ├── Annotation
+      │       ├── Annotations
       │       ├── JPEGImages
       |       ├── ImageSets
       │   ├── VOC2007_test
-      │       ├── Annotation
+      │       ├── Annotations
       │       ├── JPEGImages
       |       ├── ImageSets
       │   ├── VOC2012_trainval
-      │       ├── Annotation
+      │       ├── Annotations
       │       ├── JPEGImages
       │       ├── ImageSets
 ```

@@ -7,7 +7,7 @@ With VGG16(conv5_3):<br>
 Train on VOC2007 trainval and test on VOC2007 test, the mean_ap is 71.0%<br>
 Train on VOC2007+VOC2012 trainval and test on VOC2007 test, the mean_ap is 76.3%<br>
 (You can change the train set and test set for more results)<br>
-More backbone network(such as Resnet) will be supported in the feature
+More backbone network(such as Resnet) will be supported soon
 
 Test image show:
 ![test_img](https://github.com/LongJun123456/Faster-rcnn-tensorflow/blob/master/test_img/87.jpg)

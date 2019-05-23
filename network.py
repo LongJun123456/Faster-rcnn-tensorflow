@@ -77,7 +77,7 @@ class Net(object):
                                                   cfg.overlaps_max, cfg.overlaps_min, self.image_width, self.image_height) #anchor process and generate anchor lable[0,-1,1]
         self.rois_score = self.rois_output['rois_cls']
         self.rois_score = tf.squeeze(self.rois_score)
-        self.rois_score = tf.reshape(self.rois_score, [-1,9*2])
+        self.rois_score = tf.reshape(self.rois_score, [-1,self.num_anchor*2])
         self.rois_score = tf.reshape(self.rois_score, [-1,2])
         self.rois_positive_score = tf.nn.softmax(self.rois_score)
         self.rpn_bbx = self.rois_output['rois_bbx']

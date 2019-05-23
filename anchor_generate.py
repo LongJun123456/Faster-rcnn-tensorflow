@@ -7,6 +7,7 @@ Created on Fri Oct 19 22:18:37 2018
 
 import numpy as np
 import tensorflow as tf
+import config as cfg
 
 def generate_anchors(anchor_scales=[128,256,512], anchor_ratios=[0.5,1,2], anchor_bias_x_ctr=8, anchor_bias_y_ctr=8):
     anchor_width = np.array(anchor_scales)
@@ -45,7 +46,7 @@ def generate_anchors_conner(anchor_size, x_ctr, y_ctr):
 
 
 def all_anchor_conner(image_width, image_height, stride=16):
-    bias_anchor_conner = generate_anchors()
+    bias_anchor_conner = generate_anchors(cfg.anchor_scales, cfg.anchor_ratios)
     #print (bias_anchor_conner.shape)
     stride = np.float32(stride)
     #return 0

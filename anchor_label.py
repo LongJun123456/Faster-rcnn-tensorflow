@@ -59,13 +59,12 @@ def labels_generate (gt_boxes, target_boxes, overlaps_pos, overlaps_neg, im_widt
 def labels_filt (labels, anchor_batch):
     """ label filt: get 256 anchor where 50% for positive anchor, 50 for negative anchor"""
     max_fg_num = anchor_batch*0.5
-    
     fg_inds = np.where(labels==1)[0]
-    bg_inds = np.where(labels==0)[0] 
-    max_bg_num = anchor_batch - len(fg_inds)
     if len(fg_inds) > max_fg_num:
         disable_inds = np.random.choice(fg_inds, size=int(len(fg_inds) - max_fg_num), replace=False)
         labels[disable_inds] = -1
+    max_bg_num = anchor_batch - np.sum(labels==1)
+    bg_inds = np.where(labels==0)[0]
     if len(bg_inds) > max_bg_num:
         disable_inds = np.random.choice(bg_inds, size=int(len(bg_inds) - max_bg_num), replace=False)
         labels[disable_inds] = -1

@@ -97,7 +97,7 @@ class Solver(object):
                                      self.net.gt_cls: val_data['cls']}
                     val_loss, val_summary = sess.run([self.loss, merged], feed_dict=val_feed_dict)
                     val_writer.add_summary(val_summary, step)
-                    print ('The', step, 'step train_total_loss is', total_loss, 'val__total_loss is', val_loss)
+                    print ('The', step, 'step train_total_loss is', total_loss, 'val_total_loss is', val_loss)
                     print ('learning_rate is ', learning_rate)
                 if step % self.save_iter == 0:
                     saver.save(sess, self.ckpt_filename, global_step = step)

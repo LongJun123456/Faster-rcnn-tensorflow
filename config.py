@@ -18,7 +18,7 @@ CLASSES = ['background', 'aeroplane', 'bicycle', 'bird', 'boat', 'bottle', 'bus'
            'motorbike', 'person', 'pottedplant', 'sheep', 'sofa',
            'train', 'tvmonitor']
 
-train_imdb_name = 'VOC2007_trainval+VOC2012_trainval'  # 'VOC2007_trainval' or 'VOC2007_trainval+VOC2012_trainval' 
+train_imdb_name = 'VOC2007_trainval'  # 'VOC2007_trainval' or 'VOC2007_trainval+VOC2012_trainval' 
 
 test_imdb_name = 'VOC2007_test' #'VOC2007_test'
 

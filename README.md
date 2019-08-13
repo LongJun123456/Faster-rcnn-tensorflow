@@ -61,7 +61,7 @@ cd $PATH_ROOT
 python test_show_image.py
 ```
 # Train your own model
-1. Download VGG16 pretrained weights [VGG16_weights](http://download.tensorflow.org/models/vgg_16_2016_08_28.tar.gz)
+1. Download VGG16 pretrained weights [VGG16_weights](https://pan.baidu.com/s/1JW2sUvt6omhTKqq2dK_z6Q). pass key is txqw<br>
 2. uncompress the VGG16 pretrained weights and put the weight into folder 'model_pretrained'
 3. Modify parameters (such as train_imdb_name, test_imdb_name, MAX_ITER, etc.) in $PATH_ROOT/config.py
 Then input:
